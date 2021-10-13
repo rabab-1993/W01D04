@@ -54,6 +54,8 @@ button {
     margin: 5px;
     padding: 0 9px;
     height: 2rem;
+    cursor: pointer;
+    color: #fff;
 }
 
 .blue {
