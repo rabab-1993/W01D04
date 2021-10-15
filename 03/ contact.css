@@ -6,13 +6,49 @@
 
 
 #container {
-    
+    width: 100vw;
+    height: 100vh;
+    padding: 6em;
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
 }
 
+
+.contact, .msg-form {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+input {
+    width: 9rem;
+}
+
+
 .line {
-    width: 50px;
-    height: 500px;
+    width: 170px;
+    height: 3px;
     background: orange;
+}
+
+
+.map {
+    width: 20rem;
+    height: 20rem;
+}
+
+.bttn {
+    background: rgb(85, 94, 75);
+    color: orange;
+    border: none;
+    width: 65px;
+    font-size: large;
+}
+
+footer {
+    text-align: center;
+    height: 70px;
+    background: rgb(85, 94, 75);
+    color: #fff;
 }
